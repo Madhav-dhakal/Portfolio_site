@@ -1,0 +1,147 @@
+.portfolio {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     height: 30vh;
+     margin-top: 180px;
+     gap: 1rem;
+     margin-bottom: 10rem;
+   
+   }
+   .portfolio span:nth-of-type(1)::after {
+    background:blue;
+    content: "";
+    display: block;
+    width:265px;
+    height: 4.4px;
+    margin-left: 1rem;
+   }
+   /* heading */
+   .portfolio span:nth-of-type(1) {
+     color: blue;
+     font-size: 2.2rem;
+     font-weight: bold;
+   }
+   
+   .portfolio span:nth-of-type(2) {
+     color:black;
+     font-size: 1.78rem;
+     font-weight: bold;
+   }
+   
+   /* slider */
+   .portfolio .swiper{
+       overflow: visible!important;
+   }
+   
+   .portfolio-slider {
+     margin-top: 1rem;
+     width: 100%;
+ 
+     display: inline;
+   }
+   
+   .portfolio-slider .swiper-slide {
+     width: 21rem;
+     /* display: inline; */
+   }
+
+   .portfolio-slider  :hover {
+        transform: scale(1.1);
+      
+   }
+   .portfolio img {
+     width: 19rem;
+     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+     border-radius: 18px;
+     display: inline;
+   }
+
+   @media screen and (max-width: 768px) {
+    .portfolio-slider {
+      .swiper-slide {
+        width: 100%; /* Ensure each slide takes up the full width */
+      }
+      .swiper-wrapper {
+        display: flex;
+        flex-wrap: nowrap; /* Make the slides stack horizontally */
+      }
+      .swiper-slide img {
+        width: 100%; /* Make the images fill the entire slide */
+        height: 100px;
+      
+      }
+  
+    }
+    .portfolio span:nth-of-type(1) {
+    font-size: 27px;
+    }
+
+    .portfolio span:nth-of-type(2) {
+      font-size: 22px;
+      }
+      .portfolio span:nth-of-type(1)::after {
+        display: none;
+      }
+
+      .portfolio span:nth-of-type(1)::after {
+       display: none;
+      }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1080px) {
+    .portfolio span:nth-of-type(1) {
+      font-size: 35px;
+      }
+      .portfolio span:nth-of-type(1)::after {
+        display: none;
+       }
+      .portfolio span:nth-of-type(2) {
+        font-size: 27px;
+        }
+        .portfolio span:nth-of-type(1)::after {
+          display: none;
+        }
+
+
+        .portfolio-slider {
+          .swiper-slide {
+            width: 100%; 
+          }
+          .swiper-wrapper {
+            display: flex;
+            flex-wrap: nowrap; 
+          }
+          .swiper-slide img {
+            width: 120%; 
+            height: 110px;
+          }
+      
+        }
+  }
+
+  @media screen and (min-width: 1081px) {
+    .portfolio-slider {
+      .swiper-slide {
+        width: 100%; 
+      }
+      .swiper-wrapper {
+        display: flex;
+        flex-wrap: nowrap; 
+      }
+      .swiper-slide img {
+        width: 110%; 
+        height: 130px;
+        
+      }
+  
+    }
+    
+  }
+
+  @media screen and (width<=1315px) {
+    .portfolio span:nth-of-type(1)::after {
+      display: none;
+     }
+  }

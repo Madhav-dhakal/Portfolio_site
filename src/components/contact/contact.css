@@ -1,0 +1,123 @@
+.container{
+     margin-bottom: 4rem;
+     
+}
+
+.user1:hover, .user:hover{
+     transform: scale(1.09);
+     cursor: pointer;
+}
+.heading::after{
+     background:blue;
+        content: "";
+        display: block;
+        width:220px;
+        height: 4.4px;
+        margin-left: 24rem;
+        justify-content: center;
+   }
+
+.heading, .row{
+     font-size: 2rem;
+     font-weight: bold;
+     margin-bottom: 40px;
+     color: blue;
+     text-align: center;
+}
+
+.row{
+     display: flex;
+  justify-content: center;
+}
+
+.sub{
+   /* margin-left: 100px; */
+   justify-content: center;
+   width: 100%;
+}
+.button:hover{
+  transform: scale(1.075);
+ 
+}
+.button{
+     justify-content: center;
+}
+.user1{
+     width:330px;
+     height: 4rem;
+     border: 3.1px solid orange;
+     border-radius: 7px;
+     cursor: pointer;
+}
+.user{
+     width:330px;
+     height: 33px;
+     border: 3.1px solid orange;
+     border-radius: 7px;
+     cursor: pointer;
+     /* margin-bottom: 10px; */
+}
+
+.thanks{
+     font-size: 1.2rem;
+     color: black;
+     
+}
+
+@media screen and (max-width: 768px) {
+     .heading, .row {
+          font-size: 27px;
+          text-align: center;
+         justify-content: center;
+        }
+        .thanks{
+          font-size: 1rem;
+          color: black;
+          
+     }
+     .heading::after{
+          display: none;
+     }
+     .user1{
+          width:300px;
+     }
+     .user{
+          width:300px;
+          
+     }
+   }
+
+   @media screen and (max-width: 480px) {
+     .frm {
+       max-width: 100%; 
+       justify-content: center;
+     }
+     .user{
+          width: 210px;
+     }
+ .user1{
+     width: 210px;
+ }
+     .thanks{
+          font-size: 0.9rem;
+          color: black;
+          
+     }
+   }
+
+   @media screen and (min-width: 769px) and (max-width: 1080px) {
+     .heading, .row {
+          font-size: 35px;
+          justify-content: center;
+          text-align: center;
+        }
+        .heading::after{
+          display: none;
+     }
+   }
+
+   @media screen and (width<=1315px) {
+     .heading::after{
+       display: none;
+      }
+   }

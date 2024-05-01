@@ -1,0 +1,135 @@
+.experience{
+     margin-bottom: 9rem;
+     gap: 2rem;
+}
+.para1{
+     font-size: 19px;
+}
+.pr li{
+     font-size: 19px;
+}
+.h1::after{
+     background:blue;
+        content: "";
+        display: block;
+        width:220px;
+        height: 4.4px;
+        margin-left: 24.3rem;
+        justify-content: center;
+   }
+.h1{
+     text-align: center;
+     font-size: 2.2rem;
+     font-weight: bold;
+     color:blue;
+}
+
+.li img:hover{
+     cursor: pointer;
+     transform: scale(1.25);
+}
+.p1{
+     text-align: start;
+     font-size: 19px;
+}
+
+.h3{
+  font-weight: bold;
+  font-size: 1.6rem;   
+  text-align: center;
+}
+
+.h{
+     text-align: center;
+     font-size: 19px;
+}
+.h4{
+     font-size: 1.18rem;
+     font-weight: bold;
+}
+.github{
+     text-align: center;
+}
+.github h1{
+     font-weight: bold;
+}
+.li{
+     text-decoration: none;
+     
+}
+.li:hover{
+     color: orange;
+     text-decoration: underline;
+     font-size: 1.16rem;
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px)  {
+     .h1::after{
+       display: none;
+     }
+          .h1{
+               font-size: 35px;
+          }
+          .p1{
+              
+               text-align: start;
+               font-size: 18px;
+          }
+          .h3{
+               font-size: 27px;
+          }
+          
+          .h {
+               font-size: 18px;
+          }
+         .pr li{
+          font-size: 18px;
+         }
+
+         .h4{
+          font-size: 27px;
+         }
+         .para1{
+          font-size: 18px;
+         }
+          
+     }
+
+          @media screen and (max-width: 768px) {
+
+               .h1::after{
+
+                    display: none;
+               }
+               .h1{
+                    font-size: 27px;
+               }
+               .p1{
+                    font-size: 16px;
+                    text-align: start;
+               }
+               .h3{
+                    font-size: 22px;
+               }
+               .h{
+                    font-size: 17px;
+               }
+               .pr li{
+                    font-size: 17px;
+               }
+     
+               .h4{
+                    font-size: 22px;
+               }
+               .para1{
+                    font-size: 17px;;
+               }
+          }
+          @media screen and (width<=1315px) {
+               .h1::after{
+                 display: none;
+                }
+             }
+
+

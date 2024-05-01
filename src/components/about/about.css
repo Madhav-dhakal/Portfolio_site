@@ -1,0 +1,406 @@
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  margin-bottom: 3rem;
+  gap: 3rem;
+
+   .h11{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: blue;
+  
+  }
+
+.h11::after{
+  background:blue;
+     content: "";
+     display: block;
+     width:220px;
+     height: 4.4px;
+     margin-left: 23.5rem;
+     justify-content: center;
+     
+}
+
+
+.p11{
+  text-align: start;
+  font-size: 1.05rem;
+
+  .wlc{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+  }
+  .md{
+    font-size:19px;
+    }
+}
+
+.h22{
+  margin-left: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.skillcontainer{
+  padding: 12px;
+
+  .skillItem{
+    display: flex;
+    align-items: center;
+
+
+.skill1{
+ width: 280px;
+ height: 6px;
+ background-color: red;
+ border: 2px solid black;
+}
+.skill2{
+ width: 200px;
+ height: 6px;
+ background-color: green;
+ border: 2px solid black;
+}
+
+.skill3{
+ width: 220px;
+ height: 6px;
+ background-color: red;
+ border: 2px solid black;
+}
+
+.skill4{
+ width: 250px;
+ height: 6px;
+ background-color: green;
+ border: 2px solid black;
+}
+
+.skill5{
+ width: 220px;
+ height: 6px;
+ background-color: red;
+ border: 2px solid black;
+}
+
+.skill6{
+ width: 270px;
+ height: 6px;
+ background-color: green;
+ border: 2px solid black;
+}
+
+}
+
+.but{
+  float: inline-end;
+  margin-left: 415px;
+  color:rgb(97, 97, 235) ;
+}
+
+.bon{
+  float: inline-end;
+  margin-left: 770px;
+  background: linear-gradient(180deg, #2f8fef 26.71%, #2f8fef 99.36%);
+border-radius: 35px;
+border: none;
+color: white;
+font-size: 22px;
+padding: 7px 26px 11px 26px;
+
+}
+
+
+.bon:hover {
+  background: blue;
+  cursor: pointer;
+  border: 1px solid whitesmoke;
+  /* color:  ; */
+}
+
+}
+ 
+ .h33{
+   font-size: 1.4rem;
+   font-weight: bold;
+   text-align: center;
+ }
+
+ .learn{
+   text-align: center;
+   gap: 2rem;
+ 
+ .ln{
+   text-decoration: none;
+   cursor: pointer;
+ }
+ .ln:hover{
+   color:orange;
+   text-decoration: underline;
+   font-size: 1.15rem;
+ }
+}
+
+}
+ @media screen and (min-width: 769px) and (max-width: 1080px) {
+   
+   .services {
+    padding: 20px;
+ 
+   .float-left {
+     float: none;
+     width: 100%;
+     text-align: center;
+
+     .h11 {
+      font-size: 35px;
+      margin-top: 15rem;
+    }
+
+   .h11::after{
+    display: none;
+   }
+   
+
+   .p11 {
+    font-size: 16px;
+    text-align: start;
+
+    .wlc{
+      font-size: 27px;
+    }
+    .md{
+      font-size: 17.4px;
+     }
+  }
+  .h22 {
+    font-size: 27px;
+    text-align: start;
+  }
+
+  .skillcontainer {
+    
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .skillItem {
+      margin: 10px;
+
+       img {
+        height: 28px;
+      }
+    }
+
+    .but{
+      display: none;
+    }
+  
+    .bon {
+      margin-left: 0px;
+      flex-direction: column;
+      transform: scale(0.8);
+ left:-1rem;
+    }
+  }
+
+  .is{
+    height: 130px;
+  }
+
+   .learn {
+     text-align: center;
+
+   }
+
+   
+ }
+}
+}
+
+ @media screen and (width<769px){
+
+  .services {
+    padding: 20px;
+ 
+   .float-left {
+     float: none;
+     width: 100%;
+     text-align: center;
+
+     .h11 {
+      font-size: 27px;
+      margin-top: 12rem;
+    }
+   
+   .h11::after{
+     display: none;
+    }
+ 
+    .p11 {
+    
+      text-align: start;
+    
+ .md{
+   font-size: 15.4px;
+ }
+   
+ .wlc{
+   font-size: 22px;
+ }
+}
+
+   .h22 {
+     font-size: 20px;
+     text-align: start;
+   }
+
+
+   .h33{
+     font-size: 27px;
+   }
+ 
+   .skillcontainer {
+    
+     flex-wrap: wrap;
+     justify-content: center;
+ 
+   
+   .skillItem {
+     margin: 8px;
+   }
+ 
+   
+   .but{
+     display: none;
+   }
+ 
+   .bon {
+     margin-left: 0px;
+     flex-direction: column;
+     transform: scale(0.8);
+left:-1rem;
+   }
+  }
+
+  .is{
+    height: 100px;
+  }
+   .learn {
+     text-align: center;
+   }
+ }
+}
+ }
+
+ @media screen and (width<=600px){
+  .services{
+
+    .h11{
+      margin-top: 7rem;
+      font-size: 25px;
+    }
+
+  .skillcontainer{
+
+   .but{
+     display: none;
+   }
+ 
+   .bon {
+     margin-left: 0px;
+     flex-direction: column;
+     transform: scale(0.8);
+     margin-right:2rem;
+     margin-top: 5rem;
+     border-radius: 35px;
+
+   }
+   .skillItem{
+      
+   .skill1{
+     position: absolute;
+     margin-left: 40px;
+   }
+   .skill2{
+     position: absolute;
+     margin-left: 40px;
+     
+   }
+
+   .skill5{
+     position: absolute;
+     margin-left: 40px;
+   }
+   .skill6{
+     position: absolute;
+     margin-left: 40px;
+   }
+   .skill4{
+     position: absolute;
+     margin-left: 40px;
+   }
+  }
+}
+ }
+ }
+ @media screen and (width> 1080px){ 
+
+  .services {
+    padding: 20px;
+  
+   .float-left {
+     float: none;
+     width: 100%;
+     
+   .h11 {
+     font-size: 50px;
+     margin-top: 12rem;
+     
+   }
+  
+   .h11::after{
+    display: none;
+     
+  }
+   .p11 {
+     font-size: 1rem;
+     text-align: start;
+
+     .wlc{
+      font-size: 30px;
+    }
+   }
+ 
+   .h22 {
+     font-size: 25px;
+     text-align: start;
+   }
+
+   .skill1{
+     position: absolute;
+     margin-left: 40px;
+   }
+   .skill2{
+     position: absolute;
+     margin-left: 40px;
+   }
+   
+     
+  }
+}
+ }
+
+ @media screen and (max-width: 1315px) {
+  
+.h11::after{
+  display: none;
+}
+
+}
+ 
+   
